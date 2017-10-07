@@ -2,7 +2,7 @@
 
 Format raw Lisk amounts to be more human-readable. Adds decimal point and commas where necessary.
 
-e.g. 400251338358 becomes 4,002.51338358
+e.g. 100251338358 becomes 1,002.51338358
 
 ## Install
 ```sh
@@ -24,8 +24,8 @@ import liskPrettify from 'liskPrettify'
 
 ## Usage Example
 ```sh
-liskPrettify(400251338358)
-// "4,002.51338358"
+liskPrettify(100251338358)
+// "1,002.51338358"
 ```
 
 ## API
@@ -44,16 +44,16 @@ liskPrettify(400251338358)
 Prettify a LSK amount
 
 ```sh
-liskPrettify(400251338358)
-// Result: "4,002.51338358"
+liskPrettify(100251338358)
+// Result: "1,002.51338358"
 // returns a string
 ```
 
 Prettify a LSK amount without commas
 
 ```sh
-liskPrettify(400251338358, { commas: false })
-// Result: 4002.51338358
+liskPrettify(100251338358, { commas: false })
+// Result: 1002.51338358
 // returns a number
 ```
 
