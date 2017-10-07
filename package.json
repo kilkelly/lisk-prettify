@@ -1,7 +1,7 @@
 {
   "name": "lisk-prettify",
   "version": "1.0.0",
-  "description": "Formats raw Lisk amount to be more human-readable. Adds decimal point and commas where necessary.",
+  "description": "Formats raw Lisk amounts to be more human-readable. Adds decimal point and commas where necessary.",
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
