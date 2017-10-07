@@ -1,6 +1,6 @@
 # lisk-prettify
 
-Format raw Lisk amount to be more human-readable i.e. prettify. Adds decimal point and commas where necessary.
+Format raw Lisk amounts to be more human-readable. Adds decimal point and commas where necessary.
 
 e.g. 400251338358 becomes 4,002.51338358
 
@@ -60,7 +60,9 @@ liskPrettify(400251338358, { commas: false })
 ## Tests
 
 ```sh
-// run this command inside lisk-prettify's node_modules folder
+/* run this command inside lisk-prettify's
+   node_modules folder */
+
 npm run test
 ```
 
