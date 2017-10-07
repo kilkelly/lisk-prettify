@@ -1,6 +1,6 @@
 {
   "name": "lisk-prettify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Formats raw Lisk amounts to be more human-readable. Adds decimal point and commas where necessary.",
   "main": "dist/index.js",
   "scripts": {
