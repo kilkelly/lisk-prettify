@@ -37,7 +37,8 @@ liskPrettify(100251338358)
 *rawLskValue* (number) - The raw LSK amount, usually returned when performing API calls to the Lisk network.
 
 *config* (object) &lt;optional&gt; - Configuration for the returned result. The configurations are:
-* commas (boolean) - Choose whether or not to display commas where necessary in your result. Default: true
+* commas (boolean) - Choose whether or not to display commas where necessary e.g. 1,000,000.00000000. Default: true
+* decimals (boolean) - Choose whether or not to display decimal places. Default: true
 
 #### Examples
 
@@ -55,6 +56,13 @@ Prettify a LSK amount without commas
 liskPrettify(100251338358, { commas: false })
 // Result: 1002.51338358
 // returns a number
+```
+
+Prettify a LSK amount without decimal places
+
+```sh
+liskPrettify(100251338358, { decimals: false })
+// Result: "1,002"
 ```
 
 ## Tests
